@@ -147,12 +147,12 @@ gg_var
 
 ##Save figures 
 #Manually save mean_proportion plot as .TIFF file
-tiff("Figures/Figure_2A.Tiff", height=3.6, width=6, units="in", res=800, compression="lzw")
+tiff("figures/Figure_2A.Tiff", height=3.6, width=6, units="in", res=800, compression="lzw")
 mean_proportion_plot
 dev.off()
 
 
-ggsave(path = "Figures", filename="Figure_2B.Tiff", gg_var, 
+ggsave(path = "figures", filename="Figure_2B.Tiff", gg_var, 
        height=3600, width=6000,
        units="px", dpi = 800, compression="lzw")
 

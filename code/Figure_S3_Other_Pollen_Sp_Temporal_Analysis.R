@@ -238,7 +238,7 @@ supp_pollen_fig
 
 ##save figure
 
-ggsave(path = "Figures", filename="Figure_S3.pdf", supp_pollen_fig, 
+ggsave(path = "figures", filename="Figure_S3.pdf", supp_pollen_fig, 
        height=3600, width=6000,
        units="px", dpi = 800)
 

@@ -165,5 +165,5 @@ crop_ttest <- t.test(sd_5yr ~ ag, crops_iteration)
 crop_ttest
 
 ##Save figure S4
-ggsave("Figures/Figure_S4.pdf", gg_var_2)
+ggsave("figures/Figure_S4.pdf", gg_var_2)
 
